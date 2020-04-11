@@ -1,0 +1,66 @@
+body {
+  background-color: floralwhite;
+}
+
+.container {
+  margin: 20px;
+}
+
+header {
+  height:60px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 30px;
+}
+
+header img {
+  float: left;
+}
+
+header h2 {
+  text-align: center;
+  line-height: 60px;
+  color: dimgray;
+}
+
+.container {
+  text-align: center;
+}
+
+.kin {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.kin h2 {
+  color: goldenrod;
+}
+
+.kin img {
+  text-align: right;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  opacity: 1;
+  transition: 1s;
+}
+
+.kin img:hover {
+  opacity: 0.8;
+}
+
+footer {
+  height:50px;
+  border-top: 2px solid gray;
+  margin-top: 50px;
+}
+
+footer img {
+  float: right;
+}
+
+footer h2 {
+  float: right;
+  color: dimgray;
+  font-size: 10px;
+}
